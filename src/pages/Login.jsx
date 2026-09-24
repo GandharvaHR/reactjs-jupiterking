@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import "./Login.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 
@@ -121,7 +121,12 @@ try {
         </div>
 
         <button type="submit">Login</button>
+              <p style={{ marginLeft: "10px" }}>
+        <Link to="/register">Click here to Register</Link>
+      </p>
       </form>
+
+
     </div>
   );
 }

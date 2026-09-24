@@ -1,0 +1,63 @@
+
+/* Main container */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+  padding: 30px;
+}
+
+/* .finalsuccess{
+  color: #0f342f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: ;
+} */
+
+/* Register form */
+.register-form {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Heading */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #0f342f;
+  font-size: 28px;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 18px;
+}
+
+/* Labels */
+.form-group > label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Text inputs */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
